@@ -4,7 +4,6 @@
 
 @layer base {
   :root {
-    --z-navbar: 99;
     --background: 0 0% 100%;
     --foreground: 222.2 47.4% 11.2%;
 

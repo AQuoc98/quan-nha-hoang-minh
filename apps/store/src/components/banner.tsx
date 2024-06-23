@@ -1,9 +1,10 @@
 import Image from 'next/image';
+import bannerPic from '../assets/banner.jpeg';
 
 export default function Banner() {
   return (
-    <div className="relative max-w-6xl mx-auto h-80 md:h-[32rem] lg:h-[32rem]">
-      <Image alt="banner" fill src="/assets/banner.jpeg" sizes="100%" />
-    </div>
+    <section className="relative h-80 p-3">
+      <Image alt="banner" src={bannerPic} priority />
+    </section>
   );
 }
