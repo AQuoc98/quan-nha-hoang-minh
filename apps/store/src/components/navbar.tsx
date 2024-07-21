@@ -3,8 +3,8 @@ import logoPic from '../assets/logo.png';
 
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 overflow-hidden shadow-md p-3 h-24">
-      <Image src={logoPic} alt="logo" className="w-20 h-full" />
+    <nav className="h-24 sticky p-3 shadow-xl">
+      <Image src={logoPic} alt="logo" className="h-full w-20" />
     </nav>
   );
 }
